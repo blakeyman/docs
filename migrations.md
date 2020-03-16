@@ -448,7 +448,7 @@ Laravel uses the `utf8mb4` character set by default, which includes support for 
         Schema::defaultStringLength(191);
     }
 
-Alternatively, you may enable the `innodb_large_prefix` option for your database. Refer to your database's documentation for instructions on how to properly enable this option.
+Alternatively, you may enable the `innodb_large_prefix` and set `innodb_default_row_format = dynamic` option for your database. Refer to your database's documentation for instructions on how to properly enable this option.
 
 <a name="renaming-indexes"></a>
 ### Renaming Indexes
